@@ -17,4 +17,5 @@ This project combines two powerful APIs into a single FastAPI service:
 ### Setup
 
 ```bash
-
+pip install -r requirements.txt
+uvicorn main:app --reload
